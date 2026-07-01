@@ -44,13 +44,13 @@ id = "30c7fdf4ae6442809e1111c62d472c07"  # id of your KV namespace
 DEPLOY_URL = "https://pb.digga.pw"
 
 # url to repo, displayed in the index page
-REPO = "https://github.com/SharzyL/pastebin-worker"
+REPO = "https://google.com"
 
 # the page title displayed in index page
-INDEX_PAGE_TITLE = "Pastebin Worker"
+INDEX_PAGE_TITLE = "Pastebin"
 
 # the name displayed in TOS
-TOS_MAINTAINER = "Sharzy"
+TOS_MAINTAINER = "Pastebin"
 
 # the email displayed in TOS
 TOS_MAIL = "pb@digga.pw"
@@ -62,10 +62,10 @@ CACHE_STATIC_PAGE_AGE = 7200
 CACHE_PASTE_AGE = 600
 
 # Default expiration
-DEFAULT_EXPIRATION = "7d"
+DEFAULT_EXPIRATION = "365d"
 
 # Max expiration
-MAX_EXPIRATION = "90d"
+MAX_EXPIRATION = "365d"
 
 # A collection of {username: password} pair
 # Leave empty to disable auth
