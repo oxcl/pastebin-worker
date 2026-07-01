@@ -28,7 +28,7 @@ enabled = true
 
 [[routes]]
 # Refer to https://developers.cloudflare.com/workers/wrangler/configuration/#routes
-pattern = "shz.al"
+pattern = "pb.digga.pw"
 custom_domain = true
 
 [[kv_namespaces]]
@@ -41,7 +41,7 @@ id = "30c7fdf4ae6442809e1111c62d472c07"  # id of your KV namespace
 
 [vars]
 # must be consistent with your routes
-DEPLOY_URL = "https://shz.al"
+DEPLOY_URL = "https://pb.digga.pw"
 
 # url to repo, displayed in the index page
 REPO = "https://github.com/SharzyL/pastebin-worker"
@@ -53,7 +53,7 @@ INDEX_PAGE_TITLE = "Pastebin Worker"
 TOS_MAINTAINER = "Sharzy"
 
 # the email displayed in TOS
-TOS_MAIL = "pb@shz.al"
+TOS_MAIL = "pb@digga.pw"
 
 # Cache-Control max-age for static pages
 CACHE_STATIC_PAGE_AGE = 7200
