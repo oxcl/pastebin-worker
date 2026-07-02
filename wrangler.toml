@@ -65,7 +65,7 @@ CACHE_PASTE_AGE = 600
 DEFAULT_EXPIRATION = "1000d"
 
 # Max expiration
-MAX_EXPIRATION = "365d"
+MAX_EXPIRATION = "1000d"
 
 # A collection of {username: password} pair
 # Leave empty to disable auth
