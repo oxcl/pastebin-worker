@@ -62,14 +62,16 @@ CACHE_STATIC_PAGE_AGE = 7200
 CACHE_PASTE_AGE = 600
 
 # Default expiration
-DEFAULT_EXPIRATION = "365d"
+DEFAULT_EXPIRATION = "1000d"
 
 # Max expiration
 MAX_EXPIRATION = "365d"
 
 # A collection of {username: password} pair
 # Leave empty to disable auth
-BASIC_AUTH = {}
+BASIC_AUTH = {
+  user1 = "$2b$08$Mi1J4/p4LeWCceYtfezIX.ZkFwf.p4AfVdqPtgR6ckaLUVu5JEMtS"
+}
 
 # Files larger than this threshold will be stored in R2
 R2_THRESHOLD = "20K"
